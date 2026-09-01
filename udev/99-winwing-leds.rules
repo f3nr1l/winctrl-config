@@ -1,0 +1,23 @@
+# Rétroéclairage des manches WinWing accessible sans privilèges.
+#
+# Le retour de force n'a jamais eu besoin de root : /dev/input/event* appartient
+# au groupe `input`, et systemd-logind y ajoute une ACL pour l'utilisateur de la
+# session. Seule la luminosité imposait `sudo`, la classe `leds` créant ses
+# attributs en root:root 0644.
+#
+# On aligne donc la LED sur le device d'entrée du même manche : groupe `input`,
+# inscriptible par le groupe. Le ciblage passe par DRIVERS=="winwing", ce qui
+# ne touche à aucune autre LED du système — rétroéclairage d'écran, clavier ou
+# témoins divers gardent leurs permissions.
+#
+# Installation :
+#     sudo cp 99-winwing-leds.rules /etc/udev/rules.d/
+#     sudo udevadm control --reload
+#     sudo udevadm trigger --subsystem-match=leds
+#
+# `change` autant que `add` : le rechargement du module recrée les LED sans
+# forcément rejouer un `add`.
+
+ACTION=="add|change", SUBSYSTEM=="leds", DRIVERS=="winwing", \
+    RUN+="/usr/bin/chgrp input /sys/class/leds/%k/brightness", \
+    RUN+="/usr/bin/chmod g+w /sys/class/leds/%k/brightness"

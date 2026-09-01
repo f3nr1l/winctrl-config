@@ -1,0 +1,28 @@
+# Accès sans privilèges à /dev/uinput pour le remap / split 4×32 (D-8).
+#
+# Le remap de boutons et le mode 4×32 (contournement de la limite 32 boutons de
+# Star Citizen) se font **côté OS**, pas en flash : un démon userspace crée des
+# manettes virtuelles via /dev/uinput et *grab* le manche physique. Or /dev/uinput
+# est créé root:root 0600 -> sans cette règle, le remap exigerait sudo.
+#
+# On accorde l'accès de deux façons complémentaires (l'une ou l'autre suffit
+# selon la version de systemd) :
+#   - TAG+="uaccess" : ACL pour l'utilisateur de la session locale (comme la
+#     règle hidraw des manches) ;
+#   - GROUP="input", MODE="0660" : repli par groupe, aligné sur la règle LED.
+# OPTIONS+="static_node=uinput" applique ces permissions au nœud même quand le
+# module `uinput` est chargé à la demande (le nœud est alors matérialisé au
+# coldplug, et l'ouvrir autocharge le module).
+#
+# Ciblage strict sur le device misc `uinput` : aucun autre nœud n'est touché.
+#
+# Installation :
+#     sudo cp 71-winwing-uinput.rules /etc/udev/rules.d/
+#     sudo udevadm control --reload
+#     sudo modprobe uinput            # + persistance : echo uinput > /etc/modules-load.d/uinput.conf
+#     sudo udevadm trigger /dev/uinput
+# puis rouvrir la session (l'ACL uaccess suit la session active).
+
+KERNEL=="uinput", SUBSYSTEM=="misc", \
+    TAG+="uaccess", GROUP="input", MODE="0660", \
+    OPTIONS+="static_node=uinput"

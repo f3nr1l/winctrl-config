@@ -1,0 +1,22 @@
+# Accès sans privilèges au canal de config vendor des manches WinWing.
+#
+# La config on-board (calibration, mode d'axe, LED, profils) passe par le
+# canal vendor « report ID 2 » exposé sur /dev/hidrawN. Ces nœuds sont créés
+# root:root 0660 -> l'outil de config exige alors sudo. On accorde l'accès à
+# l'utilisateur de la session locale, sans élever toute l'application.
+#
+# TAG+="uaccess" : systemd-logind pose une ACL pour l'utilisateur connecté au
+# siège (comme pour les webcams, lecteurs, etc.) -> pas de groupe à gérer, et
+# l'accès suit la session active.
+#
+# Ciblage strict sur le VID WinWing 0x4098 : aucun autre hidraw n'est touché.
+#
+# Installation :
+#     sudo cp 70-winwing-hidraw.rules /etc/udev/rules.d/
+#     sudo udevadm control --reload
+#     sudo udevadm trigger
+# puis rebrancher à froid (jamais à chaud : panic hid_winwing au disconnect)
+# ou rouvrir la session.
+
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", \
+    ATTRS{idVendor}=="4098", TAG+="uaccess"

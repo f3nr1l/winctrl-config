@@ -1,0 +1,1028 @@
+# WinCtrl Config — translation template.
+# This file is distributed under the GPL-3.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: winctrl-config 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 00:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " — up to date"
+msgstr ""
+
+msgid " — update available (flashing not implemented)"
+msgstr ""
+
+msgid "\"Assign…\" adds a button → output mapping"
+msgstr ""
+
+msgid ""
+"\"Calibrate\" creates a backup then starts calibration; after sweeping the "
+"axis, \"Finish\" records the end stops and center in the joystick."
+msgstr ""
+
+msgid ""
+"\"Test\" drives the motor directly. Effects are generic curves (0–100 % "
+"input → intensity) driven in-game by an external source."
+msgstr ""
+
+msgid "% before reaching the maximum."
+msgstr ""
+
+msgid "% of deadzone above the center."
+msgstr ""
+
+msgid "% of deadzone below the center."
+msgstr ""
+
+msgid "% of travel ignored at the minimum."
+msgstr ""
+
+msgid "(try `wwctrl --list`)"
+msgstr ""
+
+msgid "4×32 mode"
+msgstr ""
+
+msgid ""
+"A full timestamped backup is created first. The joystick then restarts."
+msgstr ""
+
+msgid "A profile exported from this app (winwing-profile format)"
+msgstr ""
+
+msgid ""
+"A timestamped backup is created, then calibration starts. You will then "
+"sweep the axis fully and re-center it."
+msgstr ""
+
+msgid "About WinCtrl Config"
+msgstr ""
+
+msgid "Add a point"
+msgstr ""
+
+msgid ""
+"All remappings for this joystick will be deleted. No effect on the joystick "
+"(OS-side remapping)."
+msgstr ""
+
+msgid "Already \"{}\" — nothing to write"
+msgstr ""
+
+msgid "Already at this value — nothing to write"
+msgstr ""
+
+msgid "Amplifies (positive) or attenuates (negative) the output."
+msgstr ""
+
+msgid "Application stopped — axes returned to the joystick"
+msgstr ""
+
+msgid "Application stopped — joystick disconnected"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Apply (virtual controller)"
+msgstr ""
+
+msgid "Applying a profile is not available yet"
+msgstr ""
+
+msgid "Applying not available"
+msgstr ""
+
+msgid "Assign a physical button"
+msgstr ""
+
+msgid "Assign…"
+msgstr ""
+
+msgid "Automatic backup before every write."
+msgstr ""
+
+msgid "Axes"
+msgstr ""
+
+msgid "Axis + buttons"
+msgstr ""
+
+msgid "Axis only"
+msgstr ""
+
+msgid "Base"
+msgstr ""
+
+msgid "Base ambient light"
+msgstr ""
+
+msgid "Breathing"
+msgstr ""
+
+msgid "Brightness"
+msgstr ""
+
+msgid "Button #{} → #{} saved"
+msgstr ""
+
+msgid "Button remapping and splitting"
+msgstr ""
+
+msgid "Button-by-button remapping"
+msgstr ""
+
+msgid "Buttons"
+msgstr ""
+
+msgid ""
+"Buttons unchanged, axes inverted and curved. Freezes the monitor in the "
+"\"Buttons\" tab."
+msgstr ""
+
+msgid "Calibrate the {} axis?"
+msgstr ""
+
+msgid "Calibrate…"
+msgstr ""
+
+msgid "Calibration of the {} axis complete"
+msgstr ""
+
+msgid "Calibration wizard"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cannot open the input device: {}"
+msgstr ""
+
+msgid "Cannot open the joystick: {}"
+msgstr ""
+
+msgid "Cannot save: {}"
+msgstr ""
+
+msgid "Capture"
+msgstr ""
+
+msgid "Capture a physical button then choose its output number."
+msgstr ""
+
+msgid "Capture failed: {}"
+msgstr ""
+
+msgid "Capture the configuration to create the first one."
+msgstr ""
+
+msgid "Capture the current configuration"
+msgstr ""
+
+msgid ""
+"Capturing, importing and exporting profiles are available. Applying a "
+"profile to the joystick is not offered yet."
+msgstr ""
+
+msgid "Catalog request failed: {}"
+msgstr ""
+
+msgid "Center deadzone (high)"
+msgstr ""
+
+msgid "Center deadzone (low)"
+msgstr ""
+
+msgid "Change 4×32 mode?"
+msgstr ""
+
+msgid "Change the lighting mode?"
+msgstr ""
+
+msgid "Change the yaw mode?"
+msgstr ""
+
+msgid "Check"
+msgstr ""
+
+msgid "Check for the latest version"
+msgstr ""
+
+msgid ""
+"Checks the latest version in the WinWing catalog (read-only — no flashing)."
+msgstr ""
+
+msgid "Choose a .wwtc firmware"
+msgstr ""
+
+msgid "Clear all"
+msgstr ""
+
+msgid "Clear all?"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Confirm the reset?"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Control point X"
+msgstr ""
+
+msgid "Control point Y"
+msgstr ""
+
+msgid "Curvature"
+msgstr ""
+
+msgid "Curve points"
+msgstr ""
+
+msgid "Curve shape"
+msgstr ""
+
+msgid "Danger zone"
+msgstr ""
+
+msgid "Dead travel (min)"
+msgstr ""
+
+msgid "Deadzone active: {}"
+msgstr ""
+
+msgid "Deadzones"
+msgstr ""
+
+msgid "Decoded flash registers (read-only)."
+msgstr ""
+
+msgid "Delete this profile file"
+msgstr ""
+
+msgid "Direct connection"
+msgstr ""
+
+msgid "Direct pulse at the intensity above (force feedback) — reversible"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Disabled (no deadzone)"
+msgstr ""
+
+msgid "Disconnected"
+msgstr ""
+
+msgid "Drag = live preview · Persist = save to the joystick"
+msgstr ""
+
+msgid "Effect"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enable remapping"
+msgstr ""
+
+msgid "Enable splitting"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Enter…"
+msgstr ""
+
+msgid "Every write is confirmed before it is sent — automatic backup"
+msgstr ""
+
+msgid "Export the profile"
+msgstr ""
+
+msgid "Export this profile to a file"
+msgstr ""
+
+msgid ""
+"Exposes the joystick's buttons on 2 virtual 32-button controllers, to work "
+"around the 32-button limit of some games. No restart, no write to the "
+"joystick."
+msgstr ""
+
+msgid "Factory reset"
+msgstr ""
+
+msgid "Failed: {}"
+msgstr ""
+
+msgid "Failed: {} — the input device must be writable (force feedback)."
+msgstr ""
+
+msgid "Finish"
+msgstr ""
+
+msgid "Firmware"
+msgstr ""
+
+msgid "Firmware refused"
+msgstr ""
+
+msgid "Flash a firmware…"
+msgstr ""
+
+msgid "Flash complete"
+msgstr ""
+
+msgid "Flash failed"
+msgstr ""
+
+msgid "Flash for real"
+msgstr ""
+
+msgid "Flash the firmware?"
+msgstr ""
+
+msgid "Flashing…"
+msgstr ""
+
+msgid "Flash…"
+msgstr ""
+
+msgid "From a file…"
+msgstr ""
+
+msgid "Full firmware"
+msgstr ""
+
+msgid "Gain"
+msgstr ""
+
+msgid "Grip"
+msgstr ""
+
+msgid ""
+"Horizontal position of the point (50 = neutral) — or drag the handle on the "
+"preview."
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Import a profile"
+msgstr ""
+
+msgid "Import failed: {}"
+msgstr ""
+
+msgid "Input device not found for this joystick"
+msgstr ""
+
+msgid "Input device not found for this joystick."
+msgstr ""
+
+msgid "Input device not found — use \"Enter…\""
+msgstr ""
+
+msgid ""
+"Input device not readable: {}\n"
+"(install the access rule)"
+msgstr ""
+
+msgid "Invalid file (not a winwing profile)"
+msgstr ""
+
+msgid "Invalid plan: {}"
+msgstr ""
+
+msgid "Invalid remap: {}"
+msgstr ""
+
+msgid "Invalid remapping: {}"
+msgstr ""
+
+msgid "Inversion and response curve"
+msgstr ""
+
+msgid "Inversion/curves active — virtual device"
+msgstr ""
+
+msgid "Invert direction"
+msgstr ""
+
+msgid "Irreversible operation — use only an official WinWing firmware."
+msgstr ""
+
+msgid "J (exponential)"
+msgstr ""
+
+msgid "Joystick not accessible — install the access rule"
+msgstr ""
+
+msgid ""
+"Joystick unavailable: {}\n"
+"(is the access rule installed?)"
+msgstr ""
+
+msgid "Joysticks"
+msgstr ""
+
+msgid "Level of the \"Test\" button (0–100 %), also used as the global level"
+msgstr ""
+
+msgid "Linear (no setting)"
+msgstr ""
+
+msgid ""
+"Loads a profile file (.json) into the local list. No write to the device."
+msgstr ""
+
+msgid "Main menu"
+msgstr ""
+
+msgid "Mode"
+msgstr ""
+
+msgid "Mode of the rotation axis. Reversible write, automatic backup first."
+msgstr ""
+
+msgid "Monitor unavailable — use \"Enter…\""
+msgstr ""
+
+msgid "Monitor unavailable: {}"
+msgstr ""
+
+msgid "Negative: more sensitive at center. Positive: softer."
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "No WinWing device detected."
+msgstr ""
+
+msgid "No axis detected"
+msgstr ""
+
+msgid "No axis detected on this joystick."
+msgstr ""
+
+msgid "No axis inverted, curved or rotated — set an axis first"
+msgstr ""
+
+msgid "No button detected — use \"Enter…\""
+msgstr ""
+
+msgid "No input device associated with this joystick."
+msgstr ""
+
+msgid "No profile"
+msgstr ""
+
+msgid "No remapping"
+msgstr ""
+
+msgid "No remapping — add some before enabling it"
+msgstr ""
+
+msgid "No {}/{} controller on this joystick"
+msgstr ""
+
+msgid "Nothing written"
+msgstr ""
+
+msgid "Nothing written: {}"
+msgstr ""
+
+msgid "Number (1-based) of the physical button to remap."
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "Opening {} …"
+msgstr ""
+
+msgid "Output number"
+msgstr ""
+
+msgid "Pair rotation (°)"
+msgstr ""
+
+msgid "Persist"
+msgstr ""
+
+msgid "Persist the brightness?"
+msgstr ""
+
+msgid "Physical button #{}"
+msgstr ""
+
+msgid "Physical button #{} detected"
+msgstr ""
+
+msgid "Physical button #{} will output as button no.:"
+msgstr ""
+
+msgid "Point {}"
+msgstr ""
+
+msgid "Preparing… Do not unplug the joystick."
+msgstr ""
+
+msgid "Press on the joystick the physical button to remap."
+msgstr ""
+
+msgid "Preview · base backlight"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Profile name"
+msgstr ""
+
+msgid "Protected identity register (never written)"
+msgstr ""
+
+msgid ""
+"Push the axis fully in every direction, then release it to the center. Click"
+" \"Finish\": the firmware records min/center/max."
+msgstr ""
+
+msgid "Read failed: {}"
+msgstr ""
+
+msgid ""
+"Read failed: {}\n"
+"(is the access rule installed?)"
+msgstr ""
+
+msgid "Reading the file: {}"
+msgstr ""
+
+msgid "Reading the joystick and querying the network…"
+msgstr ""
+
+msgid "Reading the joystick…"
+msgstr ""
+
+msgid "Reading {} …"
+msgstr ""
+
+msgid ""
+"Reads the joystick's hardware/firmware then queries winctrl.com (network)"
+msgstr ""
+
+msgid ""
+"Reads the joystick's writable configuration (identity excluded) and saves it"
+" to a profile file."
+msgstr ""
+
+msgid "Remapped buttons"
+msgstr ""
+
+msgid "Remapping active — virtual controller"
+msgstr ""
+
+msgid "Remapping of button #{} removed"
+msgstr ""
+
+msgid "Remapping of button #{} removed (identity)"
+msgstr ""
+
+msgid "Remapping stopped — joystick released"
+msgstr ""
+
+msgid "Remappings"
+msgstr ""
+
+msgid "Remappings cleared"
+msgstr ""
+
+msgid ""
+"Remaps each physical button to an output number. The joystick declares many "
+"\"phantom\" buttons: \"Assign…\" captures the button actually pressed so "
+"they don't have to be guessed."
+msgstr ""
+
+msgid ""
+"Remaps the buttons without writing anything to the joystick: a virtual "
+"controller receives the remapped buttons, and the physical joystick is "
+"captured for the duration of the session (the monitor in the Buttons tab is "
+"therefore frozen during that time). Reversible. Splitting and remapping "
+"cannot both be active at the same time."
+msgstr ""
+
+msgid "Remove this point"
+msgstr ""
+
+msgid "Remove this remapping"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Reset this axis"
+msgstr ""
+
+msgid ""
+"Resets the entire grip configuration to factory values. Broad and hardly "
+"reversible."
+msgstr ""
+
+msgid "Reset…"
+msgstr ""
+
+msgid "Restart remapping to apply it"
+msgstr ""
+
+msgid ""
+"Rotates the {} plane from −25° to 25° (compensates for a crooked mount). Not"
+" visible in the 1D preview."
+msgstr ""
+
+msgid "S (sigmoid)"
+msgstr ""
+
+msgid "Saturation (max)"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid ""
+"Save brightness {} to the joystick?\n"
+"\n"
+"Automatic backup first. Reversible."
+msgstr ""
+
+msgid "Save the configuration"
+msgstr ""
+
+msgid "Saved"
+msgstr ""
+
+msgid "Saved profiles"
+msgstr ""
+
+msgid "Saves the effects and intensity for this joystick"
+msgstr ""
+
+msgid "Saving to the joystick"
+msgstr ""
+
+msgid "Select a joystick from the list."
+msgstr ""
+
+msgid "Serial number"
+msgstr ""
+
+msgid "Session stopped — joystick disconnected"
+msgstr ""
+
+msgid "Setting written"
+msgstr ""
+
+msgid ""
+"Settings applied by a virtual controller, never written to the joystick. "
+"Active while a session is running: \"Apply\" below, or splitting or "
+"remapping in the \"Remap\" tab."
+msgstr ""
+
+msgid "Source physical button"
+msgstr ""
+
+msgid ""
+"Splits the buttons into blocks of 32, useful for games that only handle 32 "
+"buttons."
+msgstr ""
+
+msgid "Splitting active — {} virtual controllers"
+msgstr ""
+
+msgid "Splitting into 32-button controllers"
+msgstr ""
+
+msgid "Splitting stopped — joystick released"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Startup failed: {}"
+msgstr ""
+
+msgid "Static"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Stop splitting or remapping before assigning a button"
+msgstr ""
+
+msgid "Sweep the {} axis"
+msgstr ""
+
+msgid "Technical details"
+msgstr ""
+
+msgid "Technical details (raw values)"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Test and effects"
+msgstr ""
+
+msgid "Test intensity"
+msgstr ""
+
+msgid "Test the motor"
+msgstr ""
+
+msgid "The controller is back in application mode."
+msgstr ""
+
+msgid ""
+"The joystick RESTARTS after the write (USB re-enumeration).\n"
+"\n"
+"Automatic backup first."
+msgstr ""
+
+msgid "The joystick is restarted after the write"
+msgstr ""
+
+msgid ""
+"The live preview is not kept; \"Persist\" and the mode choice save it to the"
+" joystick, with an automatic backup."
+msgstr ""
+
+msgid ""
+"This resets the ENTIRE grip configuration (calibration included) to factory values, then restarts the joystick. Hardly reversible.\n"
+"\n"
+"Continue?"
+msgstr ""
+
+msgid "Time / influence factor"
+msgstr ""
+
+msgid "USB serial: {}"
+msgstr ""
+
+msgid "Unreadable hardware version on this joystick."
+msgstr ""
+
+msgid "Vertical position of the point (50 = neutral)."
+msgstr ""
+
+msgid ""
+"Virtual device unavailable: {}. Check that the \"uinput\" module is loaded "
+"and that the access rule is installed."
+msgstr ""
+
+msgid ""
+"Virtual device unavailable: {}. Is a split or remap already active (Remap "
+"tab)? Otherwise, check that the \"uinput\" module is loaded and that the "
+"access rule is installed."
+msgstr ""
+
+msgid "Waiting for a press…"
+msgstr ""
+
+msgid ""
+"Warning — irreversible operation: it rewrites the controller's memory. Use "
+"only an official WinWing firmware and do not unplug anything during the "
+"operation (~1 min). An interruption can make the joystick unusable."
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid ""
+"Write \"{}\" for the yaw axis?\n"
+"\n"
+"A backup is created first. Reversible operation."
+msgstr ""
+
+msgid ""
+"Write \"{}\"?\n"
+"\n"
+"Automatic backup first. Reversible."
+msgstr ""
+
+msgid ""
+"Write the value {}?\n"
+"\n"
+"Automatic backup first. Reversible."
+msgstr ""
+
+msgid "Writing: {} / {} bytes"
+msgstr ""
+
+msgid "Written"
+msgstr ""
+
+msgid "Written but not confirmed"
+msgstr ""
+
+msgid "Written but not confirmed: {}"
+msgstr ""
+
+msgid "X axis (base)"
+msgstr ""
+
+msgid "X axis deadzone"
+msgstr ""
+
+msgid "Y axis (base)"
+msgstr ""
+
+msgid "Y axis deadzone"
+msgstr ""
+
+msgid "Yaw (rotation)"
+msgstr ""
+
+msgid "Yaw axis"
+msgstr ""
+
+msgid "Yaw deadzone"
+msgstr ""
+
+msgid "Yaw mode written: {}"
+msgstr ""
+
+msgid "Yaw: {}"
+msgstr ""
+
+msgid "active — {} 32-button controller"
+msgid_plural "active — {} 32-button controllers"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "active — {} remapping"
+msgid_plural "active — {} remappings"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "bounds {}/{}"
+msgstr ""
+
+msgid "button {}"
+msgstr ""
+
+msgid "center {}/{}"
+msgstr ""
+
+msgid "curl failed (code {}) — network/curl unavailable?"
+msgstr ""
+
+msgid "curve {} {}"
+msgstr ""
+
+msgid "failed to open {}: {}"
+msgstr ""
+
+msgid "gain {}"
+msgstr ""
+
+msgid "inactive"
+msgstr ""
+
+msgid "inactive — no remapping"
+msgstr ""
+
+msgid "inactive — {} saved remapping"
+msgid_plural "inactive — {} saved remappings"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "input device not found for this joystick"
+msgstr ""
+
+msgid "inverted"
+msgstr ""
+
+msgid "no WinWing device at {}"
+msgstr ""
+
+msgid "no base (family 0xbb) at {}"
+msgstr ""
+
+msgid "no base detected on this endpoint"
+msgstr ""
+
+msgid "no button detected"
+msgstr ""
+
+msgid "no calibratable axis"
+msgstr ""
+
+msgid "no grip (family 0xbf) at {}"
+msgstr ""
+
+msgid "no hardware response from the controller"
+msgstr ""
+
+msgid "not accessible — install the access rule"
+msgstr ""
+
+msgid "opening {}: {}"
+msgstr ""
+
+msgid "opening: {}"
+msgstr ""
+
+msgid "outputs as button #{}"
+msgstr ""
+
+msgid "point {}/{}"
+msgstr ""
+
+msgid "profile"
+msgstr ""
+
+msgid "rotation {}°"
+msgstr ""
+
+msgid "self-centering axis (rests at center)"
+msgstr ""
+
+msgid "unknown argument: {}"
+msgstr ""
+
+msgid "unreadable hardware type"
+msgstr ""
+
+msgid "unreadable hardware version"
+msgstr ""
+
+msgid "usage: wwctrl --backlight-dryrun /dev/hidrawN"
+msgstr ""
+
+msgid "usage: wwctrl --read /dev/hidrawN"
+msgstr ""
+
+msgid "usage: wwctrl --twist-dryrun /dev/hidrawN"
+msgstr ""
+
+msgid ""
+"usage: wwctrl [--list | --read | --twist-dryrun | --backlight-dryrun "
+"/dev/hidrawN]"
+msgstr ""
+
+msgid "warning: {} not accessible for read/write (install the access rule)"
+msgstr ""
+
+msgid ""
+"{}\n"
+"\n"
+"If the joystick no longer responds, run a flash again with an official firmware to recover it."
+msgstr ""
+
+msgid "{} (HW {}): firmware {} · catalog {}{}"
+msgstr ""
+
+msgid "{} (HW {}): firmware {} · no catalog entry"
+msgstr ""
+
+msgid "{} axis"
+msgstr ""
+
+msgid "{} axis: no change recorded"
+msgstr ""
+
+msgid "{} · serial no. {}…"
+msgstr ""
+
+msgid "{} · {} · {} settings"
+msgstr ""
+
+msgid "URSA MINOR Joystick (right)"
+msgstr ""
+
+msgid "URSA MINOR Joystick (left)"
+msgstr ""

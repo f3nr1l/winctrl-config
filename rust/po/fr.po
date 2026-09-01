@@ -1,0 +1,1123 @@
+# WinCtrl Config — French translation.
+# This file is distributed under the GPL-3.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: winctrl-config 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 00:26+0000\n"
+"PO-Revision-Date: 2026-09-01 00:00+0000\n"
+"Last-Translator: WinCtrl Config contributors\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid " — up to date"
+msgstr " — à jour"
+
+msgid " — update available (flashing not implemented)"
+msgstr " — mise à jour disponible (flashage non implémenté)"
+
+msgid "\"Assign…\" adds a button → output mapping"
+msgstr "« Assigner… » ajoute une correspondance bouton → sortie"
+
+msgid ""
+"\"Calibrate\" creates a backup then starts calibration; after sweeping the "
+"axis, \"Finish\" records the end stops and center in the joystick."
+msgstr ""
+"« Calibrer » crée une sauvegarde puis démarre la calibration ; après avoir "
+"balayé l'axe, « Terminer » enregistre les butées et le centre dans le "
+"manche."
+
+msgid ""
+"\"Test\" drives the motor directly. Effects are generic curves (0–100 % "
+"input → intensity) driven in-game by an external source."
+msgstr ""
+"« Tester » commande le moteur directement. Les effets sont des courbes "
+"génériques (entrée 0–100 % → intensité) pilotées en jeu par une source "
+"externe."
+
+msgid "% before reaching the maximum."
+msgstr "% de course avant d'atteindre le maximum."
+
+msgid "% of deadzone above the center."
+msgstr "% de zone morte au-dessus du centre."
+
+msgid "% of deadzone below the center."
+msgstr "% de zone morte sous le centre."
+
+msgid "% of travel ignored at the minimum."
+msgstr "% de course ignoré au minimum."
+
+msgid "(try `wwctrl --list`)"
+msgstr "(essayez `wwctrl --list`)"
+
+msgid "4×32 mode"
+msgstr "Mode 4×32"
+
+msgid ""
+"A full timestamped backup is created first. The joystick then restarts."
+msgstr ""
+"Une sauvegarde horodatée complète est créée avant. Le manche redémarre "
+"ensuite."
+
+msgid "A profile exported from this app (winwing-profile format)"
+msgstr "Un profil exporté depuis cette application (format winwing-profile)"
+
+msgid ""
+"A timestamped backup is created, then calibration starts. You will then "
+"sweep the axis fully and re-center it."
+msgstr ""
+"Une sauvegarde horodatée est créée, puis la calibration démarre. Vous "
+"balayerez ensuite l'axe à fond, puis le recentrerez."
+
+msgid "About WinCtrl Config"
+msgstr "À propos de WinCtrl Config"
+
+msgid "Add a point"
+msgstr "Ajouter un point"
+
+msgid ""
+"All remappings for this joystick will be deleted. No effect on the joystick "
+"(OS-side remapping)."
+msgstr ""
+"Toutes les réaffectations de ce manche seront supprimées. Sans effet sur le "
+"manche (réaffectation côté système)."
+
+msgid "Already \"{}\" — nothing to write"
+msgstr "Déjà « {} » — rien à écrire"
+
+msgid "Already at this value — nothing to write"
+msgstr "Déjà à cette valeur — rien à écrire"
+
+msgid "Amplifies (positive) or attenuates (negative) the output."
+msgstr "Amplifie (positif) ou atténue (négatif) la sortie."
+
+msgid "Application stopped — axes returned to the joystick"
+msgstr "Application arrêtée — axes rendus au manche"
+
+msgid "Application stopped — joystick disconnected"
+msgstr "Application arrêtée — manche déconnecté"
+
+msgid "Apply"
+msgstr "Appliquer"
+
+msgid "Apply (virtual controller)"
+msgstr "Appliquer (manette virtuelle)"
+
+msgid "Applying a profile is not available yet"
+msgstr "L'application d'un profil n'est pas encore disponible"
+
+msgid "Applying not available"
+msgstr "Application non disponible"
+
+msgid "Assign a physical button"
+msgstr "Assigner un bouton physique"
+
+msgid "Assign…"
+msgstr "Assigner…"
+
+msgid "Automatic backup before every write."
+msgstr "Sauvegarde automatique avant chaque écriture."
+
+msgid "Axes"
+msgstr "Axes"
+
+msgid "Axis + buttons"
+msgstr "Axe + boutons"
+
+msgid "Axis only"
+msgstr "Axe seul"
+
+msgid "Base"
+msgstr "Base"
+
+msgid "Base ambient light"
+msgstr "Lumière d'ambiance de la base"
+
+msgid "Breathing"
+msgstr "Respiration"
+
+msgid "Brightness"
+msgstr "Luminosité"
+
+msgid "Button #{} → #{} saved"
+msgstr "Bouton n°{} → n°{} enregistré"
+
+msgid "Button remapping and splitting"
+msgstr "Réaffectation et répartition des boutons"
+
+msgid "Button-by-button remapping"
+msgstr "Réaffectation bouton par bouton"
+
+msgid "Buttons"
+msgstr "Boutons"
+
+msgid ""
+"Buttons unchanged, axes inverted and curved. Freezes the monitor in the "
+"\"Buttons\" tab."
+msgstr ""
+"Boutons à l'identique, axes inversés et courbés. Fige le moniteur de "
+"l'onglet « Boutons »."
+
+msgid "Calibrate the {} axis?"
+msgstr "Calibrer l'axe {} ?"
+
+msgid "Calibrate…"
+msgstr "Calibrer…"
+
+msgid "Calibration of the {} axis complete"
+msgstr "Calibration de l'axe {} terminée"
+
+msgid "Calibration wizard"
+msgstr "Assistant de calibration"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Cannot open the input device: {}"
+msgstr "Ouverture du périphérique d'entrée impossible : {}"
+
+msgid "Cannot open the joystick: {}"
+msgstr "Ouverture du manche impossible : {}"
+
+msgid "Cannot save: {}"
+msgstr "Enregistrement impossible : {}"
+
+msgid "Capture"
+msgstr "Capturer"
+
+msgid "Capture a physical button then choose its output number."
+msgstr "Capturez un bouton physique puis choisissez son numéro de sortie."
+
+msgid "Capture failed: {}"
+msgstr "Échec de capture : {}"
+
+msgid "Capture the configuration to create the first one."
+msgstr "Capturez la configuration pour créer le premier."
+
+msgid "Capture the current configuration"
+msgstr "Capturer la configuration actuelle"
+
+msgid ""
+"Capturing, importing and exporting profiles are available. Applying a "
+"profile to the joystick is not offered yet."
+msgstr ""
+"La capture, l'import et l'export de profils sont disponibles. L'application "
+"d'un profil au manche n'est pas encore proposée."
+
+msgid "Catalog request failed: {}"
+msgstr "Requête au catalogue échouée : {}"
+
+msgid "Center deadzone (high)"
+msgstr "Zone morte centrale (haut)"
+
+msgid "Center deadzone (low)"
+msgstr "Zone morte centrale (bas)"
+
+msgid "Change 4×32 mode?"
+msgstr "Changer le mode 4×32 ?"
+
+msgid "Change the lighting mode?"
+msgstr "Changer le mode d'éclairage ?"
+
+msgid "Change the yaw mode?"
+msgstr "Changer le mode du lacet ?"
+
+msgid "Check"
+msgstr "Vérifier"
+
+msgid "Check for the latest version"
+msgstr "Vérifier la dernière version"
+
+msgid ""
+"Checks the latest version in the WinWing catalog (read-only — no flashing)."
+msgstr ""
+"Vérifie la dernière version au catalogue WinWing (lecture seule — aucun "
+"flashage)."
+
+msgid "Choose a .wwtc firmware"
+msgstr "Choisir un firmware .wwtc"
+
+msgid "Clear all"
+msgstr "Tout effacer"
+
+msgid "Clear all?"
+msgstr "Tout effacer ?"
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "Confirm the reset?"
+msgstr "Confirmer la réinitialisation ?"
+
+msgid "Connected"
+msgstr "Connecté"
+
+msgid "Continue"
+msgstr "Continuer"
+
+msgid "Control point X"
+msgstr "Point de contrôle X"
+
+msgid "Control point Y"
+msgstr "Point de contrôle Y"
+
+msgid "Curvature"
+msgstr "Courbure"
+
+msgid "Curve points"
+msgstr "Points de la courbe"
+
+msgid "Curve shape"
+msgstr "Forme de courbe"
+
+msgid "Danger zone"
+msgstr "Zone de danger"
+
+msgid "Dead travel (min)"
+msgstr "Course morte (min)"
+
+msgid "Deadzone active: {}"
+msgstr "Zone morte active : {}"
+
+msgid "Deadzones"
+msgstr "Zones mortes"
+
+msgid "Decoded flash registers (read-only)."
+msgstr "Registres flash décodés (lecture seule)."
+
+msgid "Delete this profile file"
+msgstr "Supprimer ce fichier profil"
+
+msgid "Direct connection"
+msgstr "Connexion directe"
+
+msgid "Direct pulse at the intensity above (force feedback) — reversible"
+msgstr ""
+"Impulsion directe à l'intensité ci-dessus (retour de force) — réversible"
+
+msgid "Disable"
+msgstr "Désactiver"
+
+msgid "Disabled"
+msgstr "Désactivé"
+
+msgid "Disabled (no deadzone)"
+msgstr "Désactivée (aucune zone morte)"
+
+msgid "Disconnected"
+msgstr "Déconnecté"
+
+msgid "Drag = live preview · Persist = save to the joystick"
+msgstr "Glisser = aperçu en direct · Persister = enregistrer dans le manche"
+
+msgid "Effect"
+msgstr "Effet"
+
+msgid "Enable"
+msgstr "Activer"
+
+msgid "Enable remapping"
+msgstr "Activer la réaffectation"
+
+msgid "Enable splitting"
+msgstr "Activer la répartition"
+
+msgid "Enabled"
+msgstr "Activé"
+
+msgid "Enter…"
+msgstr "Saisir…"
+
+msgid "Every write is confirmed before it is sent — automatic backup"
+msgstr "Toute écriture est confirmée avant envoi — sauvegarde automatique"
+
+msgid "Export the profile"
+msgstr "Exporter le profil"
+
+msgid "Export this profile to a file"
+msgstr "Exporter ce profil dans un fichier"
+
+msgid ""
+"Exposes the joystick's buttons on 2 virtual 32-button controllers, to work "
+"around the 32-button limit of some games. No restart, no write to the "
+"joystick."
+msgstr ""
+"Expose les boutons du manche sur 2 manettes virtuelles de 32 boutons, pour "
+"contourner la limite de 32 boutons de certains jeux. Sans redémarrage ni "
+"écriture dans le manche."
+
+msgid "Factory reset"
+msgstr "Réinitialisation usine"
+
+msgid "Failed: {}"
+msgstr "Échec : {}"
+
+msgid "Failed: {} — the input device must be writable (force feedback)."
+msgstr ""
+"Échec : {} — le périphérique d'entrée doit être accessible en écriture "
+"(retour de force)."
+
+msgid "Finish"
+msgstr "Terminer"
+
+msgid "Firmware"
+msgstr "Firmware"
+
+msgid "Firmware refused"
+msgstr "Firmware refusé"
+
+msgid "Flash a firmware…"
+msgstr "Flasher un firmware…"
+
+msgid "Flash complete"
+msgstr "Flashage terminé"
+
+msgid "Flash failed"
+msgstr "Échec du flashage"
+
+msgid "Flash for real"
+msgstr "Flasher réellement"
+
+msgid "Flash the firmware?"
+msgstr "Flasher le firmware ?"
+
+msgid "Flashing…"
+msgstr "Flashage en cours…"
+
+msgid "Flash…"
+msgstr "Flasher…"
+
+msgid "From a file…"
+msgstr "Depuis un fichier…"
+
+msgid "Full firmware"
+msgstr "Firmware complet"
+
+msgid "Gain"
+msgstr "Gain"
+
+msgid "Grip"
+msgstr "Poignée"
+
+msgid ""
+"Horizontal position of the point (50 = neutral) — or drag the handle on the "
+"preview."
+msgstr ""
+"Position horizontale du point (50 = neutre) — ou glissez la poignée sur "
+"l'aperçu."
+
+msgid "Import"
+msgstr "Importer"
+
+msgid "Import a profile"
+msgstr "Importer un profil"
+
+msgid "Import failed: {}"
+msgstr "Échec d'import : {}"
+
+msgid "Input device not found for this joystick"
+msgstr "Périphérique d'entrée introuvable pour ce manche"
+
+msgid "Input device not found for this joystick."
+msgstr "Périphérique d'entrée introuvable pour ce manche."
+
+msgid "Input device not found — use \"Enter…\""
+msgstr "Périphérique d'entrée introuvable — utilisez « Saisir… »"
+
+msgid ""
+"Input device not readable: {}\n"
+"(install the access rule)"
+msgstr ""
+"Périphérique d'entrée non lisible : {}\n"
+"(installer la règle d'accès)"
+
+msgid "Invalid file (not a winwing profile)"
+msgstr "Fichier invalide (pas un profil winwing)"
+
+msgid "Invalid plan: {}"
+msgstr "Plan invalide : {}"
+
+msgid "Invalid remap: {}"
+msgstr "Réaffectation invalide : {}"
+
+msgid "Invalid remapping: {}"
+msgstr "Réaffectation invalide : {}"
+
+msgid "Inversion and response curve"
+msgstr "Inversion et courbe de réponse"
+
+msgid "Inversion/curves active — virtual device"
+msgstr "Inversion/courbes actives — périphérique virtuel"
+
+msgid "Invert direction"
+msgstr "Inverser le sens"
+
+msgid "Irreversible operation — use only an official WinWing firmware."
+msgstr "Opération irréversible — n'utilisez qu'un firmware officiel WinWing."
+
+msgid "J (exponential)"
+msgstr "J (exponentielle)"
+
+msgid "Joystick not accessible — install the access rule"
+msgstr "Manche non accessible — installer la règle d'accès"
+
+msgid ""
+"Joystick unavailable: {}\n"
+"(is the access rule installed?)"
+msgstr ""
+"Manche indisponible : {}\n"
+"(règle d'accès installée ?)"
+
+msgid "Joysticks"
+msgstr "Manches"
+
+msgid "Level of the \"Test\" button (0–100 %), also used as the global level"
+msgstr ""
+"Niveau du bouton « Tester » (0–100 %), aussi utilisé comme niveau global"
+
+msgid "Linear (no setting)"
+msgstr "Linéaire (aucun réglage)"
+
+msgid ""
+"Loads a profile file (.json) into the local list. No write to the device."
+msgstr ""
+"Charge un fichier profil (.json) dans la liste locale. Aucune écriture dans "
+"l'appareil."
+
+msgid "Main menu"
+msgstr "Menu principal"
+
+msgid "Mode"
+msgstr "Mode"
+
+msgid "Mode of the rotation axis. Reversible write, automatic backup first."
+msgstr ""
+"Mode de l'axe de rotation. Écriture réversible, sauvegarde automatique "
+"avant."
+
+msgid "Monitor unavailable — use \"Enter…\""
+msgstr "Moniteur indisponible — utilisez « Saisir… »"
+
+msgid "Monitor unavailable: {}"
+msgstr "Moniteur indisponible : {}"
+
+msgid "Negative: more sensitive at center. Positive: softer."
+msgstr "Négatif : plus sensible au centre. Positif : plus doux."
+
+msgid "Next"
+msgstr "Suivant"
+
+msgid "No WinWing device detected."
+msgstr "Aucun périphérique WinWing détecté."
+
+msgid "No axis detected"
+msgstr "Aucun axe détecté"
+
+msgid "No axis detected on this joystick."
+msgstr "Aucun axe détecté sur ce manche."
+
+msgid "No axis inverted, curved or rotated — set an axis first"
+msgstr "Aucun axe inversé, courbé ou tourné — réglez un axe d'abord"
+
+msgid "No button detected — use \"Enter…\""
+msgstr "Aucun bouton détecté — utilisez « Saisir… »"
+
+msgid "No input device associated with this joystick."
+msgstr "Aucun périphérique d'entrée associé à ce manche."
+
+msgid "No profile"
+msgstr "Aucun profil"
+
+msgid "No remapping"
+msgstr "Aucune réaffectation"
+
+msgid "No remapping — add some before enabling it"
+msgstr "Aucune réaffectation — ajoutez-en avant de l'activer"
+
+msgid "No {}/{} controller on this joystick"
+msgstr "Aucun contrôleur {}/{} sur ce manche"
+
+msgid "Nothing written"
+msgstr "Aucune écriture"
+
+msgid "Nothing written: {}"
+msgstr "Aucune écriture : {}"
+
+msgid "Number (1-based) of the physical button to remap."
+msgstr "Numéro (à partir de 1) du bouton physique à réaffecter."
+
+msgid "OK"
+msgstr "Valider"
+
+msgid "Off"
+msgstr "Éteint"
+
+msgid "Opening {} …"
+msgstr "Ouverture de {} …"
+
+msgid "Output number"
+msgstr "Numéro de sortie"
+
+msgid "Pair rotation (°)"
+msgstr "Rotation du couple (°)"
+
+msgid "Persist"
+msgstr "Persister"
+
+msgid "Persist the brightness?"
+msgstr "Persister la luminosité ?"
+
+msgid "Physical button #{}"
+msgstr "Bouton physique n°{}"
+
+msgid "Physical button #{} detected"
+msgstr "Bouton physique n°{} détecté"
+
+msgid "Physical button #{} will output as button no.:"
+msgstr "Le bouton physique n°{} sortira comme bouton n° :"
+
+msgid "Point {}"
+msgstr "Point {}"
+
+msgid "Preparing… Do not unplug the joystick."
+msgstr "Préparation… Ne débranchez pas le manche."
+
+msgid "Press on the joystick the physical button to remap."
+msgstr "Pressez sur le manche le bouton physique à réaffecter."
+
+msgid "Preview · base backlight"
+msgstr "Aperçu · rétroéclairage de la base"
+
+msgid "Product"
+msgstr "Produit"
+
+msgid "Profile name"
+msgstr "Nom du profil"
+
+msgid "Protected identity register (never written)"
+msgstr "Registre d'identité protégé (jamais écrit)"
+
+msgid ""
+"Push the axis fully in every direction, then release it to the center. Click"
+" \"Finish\": the firmware records min/center/max."
+msgstr ""
+"Poussez l'axe à fond dans toutes les directions, puis relâchez-le au centre."
+" Cliquez « Terminer » : le firmware enregistre min/centre/max."
+
+msgid "Read failed: {}"
+msgstr "Échec de lecture : {}"
+
+msgid ""
+"Read failed: {}\n"
+"(is the access rule installed?)"
+msgstr ""
+"Échec de lecture : {}\n"
+"(règle d'accès installée ?)"
+
+msgid "Reading the file: {}"
+msgstr "Lecture du fichier : {}"
+
+msgid "Reading the joystick and querying the network…"
+msgstr "Lecture du manche et requête réseau…"
+
+msgid "Reading the joystick…"
+msgstr "Lecture du manche…"
+
+msgid "Reading {} …"
+msgstr "Lecture de {} …"
+
+msgid ""
+"Reads the joystick's hardware/firmware then queries winctrl.com (network)"
+msgstr ""
+"Lit le matériel/firmware du manche puis interroge winctrl.com (réseau)"
+
+msgid ""
+"Reads the joystick's writable configuration (identity excluded) and saves it"
+" to a profile file."
+msgstr ""
+"Lit la configuration écrivable du manche (identité exclue) et l'enregistre "
+"dans un fichier profil."
+
+msgid "Remapped buttons"
+msgstr "Boutons réaffectés"
+
+msgid "Remapping active — virtual controller"
+msgstr "Réaffectation active — manette virtuelle"
+
+msgid "Remapping of button #{} removed"
+msgstr "Réaffectation du bouton n°{} retirée"
+
+msgid "Remapping of button #{} removed (identity)"
+msgstr "Réaffectation du bouton n°{} retirée (identité)"
+
+msgid "Remapping stopped — joystick released"
+msgstr "Réaffectation arrêtée — manche rendu"
+
+msgid "Remappings"
+msgstr "Réaffectations"
+
+msgid "Remappings cleared"
+msgstr "Réaffectations effacées"
+
+msgid ""
+"Remaps each physical button to an output number. The joystick declares many "
+"\"phantom\" buttons: \"Assign…\" captures the button actually pressed so "
+"they don't have to be guessed."
+msgstr ""
+"Réaffecte chaque bouton physique à un numéro de sortie. Le manche déclare "
+"beaucoup de boutons « fantômes » : « Assigner… » capture le bouton "
+"réellement pressé pour ne pas les deviner."
+
+msgid ""
+"Remaps the buttons without writing anything to the joystick: a virtual "
+"controller receives the remapped buttons, and the physical joystick is "
+"captured for the duration of the session (the monitor in the Buttons tab is "
+"therefore frozen during that time). Reversible. Splitting and remapping "
+"cannot both be active at the same time."
+msgstr ""
+"Réaffecte les boutons sans rien écrire dans le manche : une manette "
+"virtuelle reçoit les boutons réaffectés, et le manche physique est capturé "
+"le temps de la session (le moniteur de l'onglet Boutons est donc figé "
+"pendant ce temps). Réversible. La répartition et la réaffectation ne peuvent"
+" pas être actives en même temps."
+
+msgid "Remove this point"
+msgstr "Retirer ce point"
+
+msgid "Remove this remapping"
+msgstr "Retirer cette réaffectation"
+
+msgid "Reset"
+msgstr "Réinitialiser"
+
+msgid "Reset this axis"
+msgstr "Réinitialiser cet axe"
+
+msgid ""
+"Resets the entire grip configuration to factory values. Broad and hardly "
+"reversible."
+msgstr ""
+"Remet toute la configuration de la poignée aux valeurs d'usine. Action large"
+" et peu réversible."
+
+msgid "Reset…"
+msgstr "Réinitialiser…"
+
+msgid "Restart remapping to apply it"
+msgstr "Redémarrez la réaffectation pour l'appliquer"
+
+msgid ""
+"Rotates the {} plane from −25° to 25° (compensates for a crooked mount). Not"
+" visible in the 1D preview."
+msgstr ""
+"Tourne le plan {} de −25° à 25° (compense un montage de travers). Non "
+"visible dans l'aperçu 1D."
+
+msgid "S (sigmoid)"
+msgstr "S (sigmoïde)"
+
+msgid "Saturation (max)"
+msgstr "Saturation (max)"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid ""
+"Save brightness {} to the joystick?\n"
+"\n"
+"Automatic backup first. Reversible."
+msgstr ""
+"Enregistrer la luminosité {} dans le manche ?\n"
+"\n"
+"Sauvegarde automatique avant. Réversible."
+
+msgid "Save the configuration"
+msgstr "Enregistrer la configuration"
+
+msgid "Saved"
+msgstr "Enregistré"
+
+msgid "Saved profiles"
+msgstr "Profils enregistrés"
+
+msgid "Saves the effects and intensity for this joystick"
+msgstr "Enregistre les effets et l'intensité pour ce manche"
+
+msgid "Saving to the joystick"
+msgstr "Enregistrement dans le manche"
+
+msgid "Select a joystick from the list."
+msgstr "Sélectionnez un manche dans la liste."
+
+msgid "Serial number"
+msgstr "Numéro de série"
+
+msgid "Session stopped — joystick disconnected"
+msgstr "Session arrêtée — manche déconnecté"
+
+msgid "Setting written"
+msgstr "Réglage écrit"
+
+msgid ""
+"Settings applied by a virtual controller, never written to the joystick. "
+"Active while a session is running: \"Apply\" below, or splitting or "
+"remapping in the \"Remap\" tab."
+msgstr ""
+"Réglages appliqués par une manette virtuelle, jamais écrits dans le manche. "
+"Actifs lorsqu'une session tourne : « Appliquer » ci-dessous, ou la "
+"répartition ou la réaffectation de l'onglet « Remap »."
+
+msgid "Source physical button"
+msgstr "Bouton physique source"
+
+msgid ""
+"Splits the buttons into blocks of 32, useful for games that only handle 32 "
+"buttons."
+msgstr ""
+"Répartit les boutons en blocs de 32, utile pour les jeux qui ne gèrent que "
+"32 boutons."
+
+msgid "Splitting active — {} virtual controllers"
+msgstr "Répartition active — {} manettes virtuelles"
+
+msgid "Splitting into 32-button controllers"
+msgstr "Répartition en manettes de 32 boutons"
+
+msgid "Splitting stopped — joystick released"
+msgstr "Répartition arrêtée — manche rendu"
+
+msgid "Start"
+msgstr "Démarrer"
+
+msgid "Startup failed: {}"
+msgstr "Échec du démarrage : {}"
+
+msgid "Static"
+msgstr "Statique"
+
+msgid "Status"
+msgstr "État"
+
+msgid "Stop splitting or remapping before assigning a button"
+msgstr "Arrêtez la répartition ou la réaffectation avant d'assigner un bouton"
+
+msgid "Sweep the {} axis"
+msgstr "Balayez l'axe {}"
+
+msgid "Technical details"
+msgstr "Détails techniques"
+
+msgid "Technical details (raw values)"
+msgstr "Détails techniques (valeurs brutes)"
+
+msgid "Test"
+msgstr "Tester"
+
+msgid "Test and effects"
+msgstr "Test et effets"
+
+msgid "Test intensity"
+msgstr "Intensité du test"
+
+msgid "Test the motor"
+msgstr "Tester le moteur"
+
+msgid "The controller is back in application mode."
+msgstr "Le contrôleur est de retour en mode applicatif."
+
+msgid ""
+"The joystick RESTARTS after the write (USB re-enumeration).\n"
+"\n"
+"Automatic backup first."
+msgstr ""
+"Le manche REDÉMARRE après l'écriture (ré-énumération USB).\n"
+"\n"
+"Sauvegarde automatique avant."
+
+msgid "The joystick is restarted after the write"
+msgstr "Un redémarrage du manche est appliqué après l'écriture"
+
+msgid ""
+"The live preview is not kept; \"Persist\" and the mode choice save it to the"
+" joystick, with an automatic backup."
+msgstr ""
+"L'aperçu en direct n'est pas conservé ; « Persister » et le choix du mode "
+"l'enregistrent dans le manche, avec une sauvegarde automatique."
+
+msgid ""
+"This resets the ENTIRE grip configuration (calibration included) to factory values, then restarts the joystick. Hardly reversible.\n"
+"\n"
+"Continue?"
+msgstr ""
+"Cette action remet TOUTE la configuration de la poignée (calibration comprise) aux valeurs d'usine, puis redémarre le manche. Peu réversible.\n"
+"\n"
+"Continuer ?"
+
+msgid "Time / influence factor"
+msgstr "Temps / facteur d'influence"
+
+msgid "USB serial: {}"
+msgstr "Série USB : {}"
+
+msgid "Unreadable hardware version on this joystick."
+msgstr "Version matérielle illisible sur ce manche."
+
+msgid "Vertical position of the point (50 = neutral)."
+msgstr "Position verticale du point (50 = neutre)."
+
+msgid ""
+"Virtual device unavailable: {}. Check that the \"uinput\" module is loaded "
+"and that the access rule is installed."
+msgstr ""
+"Périphérique virtuel indisponible : {}. Vérifiez que le module « uinput » "
+"est chargé et que la règle d'accès est installée."
+
+msgid ""
+"Virtual device unavailable: {}. Is a split or remap already active (Remap "
+"tab)? Otherwise, check that the \"uinput\" module is loaded and that the "
+"access rule is installed."
+msgstr ""
+"Périphérique virtuel indisponible : {}. Une répartition ou une réaffectation"
+" est-elle déjà active (onglet Remap) ? Sinon, vérifiez que le module « "
+"uinput » est chargé et que la règle d'accès est installée."
+
+msgid "Waiting for a press…"
+msgstr "En attente d'un appui…"
+
+msgid ""
+"Warning — irreversible operation: it rewrites the controller's memory. Use "
+"only an official WinWing firmware and do not unplug anything during the "
+"operation (~1 min). An interruption can make the joystick unusable."
+msgstr ""
+"Attention — opération irréversible : elle réécrit la mémoire du contrôleur. "
+"N'utilisez qu'un firmware officiel WinWing et ne débranchez rien pendant "
+"l'opération (~1 min). Une interruption peut rendre le manche inutilisable."
+
+msgid "Write"
+msgstr "Écrire"
+
+msgid ""
+"Write \"{}\" for the yaw axis?\n"
+"\n"
+"A backup is created first. Reversible operation."
+msgstr ""
+"Écrire « {} » pour l'axe de lacet ?\n"
+"\n"
+"Une sauvegarde est créée avant. Opération réversible."
+
+msgid ""
+"Write \"{}\"?\n"
+"\n"
+"Automatic backup first. Reversible."
+msgstr ""
+"Écrire « {} » ?\n"
+"\n"
+"Sauvegarde automatique avant. Réversible."
+
+msgid ""
+"Write the value {}?\n"
+"\n"
+"Automatic backup first. Reversible."
+msgstr ""
+"Écrire la valeur {} ?\n"
+"\n"
+"Sauvegarde automatique avant. Réversible."
+
+msgid "Writing: {} / {} bytes"
+msgstr "Écriture : {} / {} octets"
+
+msgid "Written"
+msgstr "Écrit"
+
+msgid "Written but not confirmed"
+msgstr "Écrit mais non confirmé"
+
+msgid "Written but not confirmed: {}"
+msgstr "Écrit mais non confirmé : {}"
+
+msgid "X axis (base)"
+msgstr "Axe X (base)"
+
+msgid "X axis deadzone"
+msgstr "Zone morte de l'axe X"
+
+msgid "Y axis (base)"
+msgstr "Axe Y (base)"
+
+msgid "Y axis deadzone"
+msgstr "Zone morte de l'axe Y"
+
+msgid "Yaw (rotation)"
+msgstr "Lacet (rotation)"
+
+msgid "Yaw axis"
+msgstr "Axe de lacet"
+
+msgid "Yaw deadzone"
+msgstr "Zone morte du lacet"
+
+msgid "Yaw mode written: {}"
+msgstr "Mode du lacet écrit : {}"
+
+msgid "Yaw: {}"
+msgstr "Lacet : {}"
+
+msgid "active — {} 32-button controller"
+msgid_plural "active — {} 32-button controllers"
+msgstr[0] "actif — {} manette de 32 boutons"
+msgstr[1] "actif — {} manettes de 32 boutons"
+
+msgid "active — {} remapping"
+msgid_plural "active — {} remappings"
+msgstr[0] "actif — {} réaffectation"
+msgstr[1] "actif — {} réaffectations"
+
+msgid "bounds {}/{}"
+msgstr "bornes {}/{}"
+
+msgid "button {}"
+msgstr "bouton {}"
+
+msgid "center {}/{}"
+msgstr "centre {}/{}"
+
+msgid "curl failed (code {}) — network/curl unavailable?"
+msgstr "échec de curl (code {}) — réseau/curl indisponible ?"
+
+msgid "curve {} {}"
+msgstr "courbe {} {}"
+
+msgid "failed to open {}: {}"
+msgstr "échec d'ouverture de {} : {}"
+
+msgid "gain {}"
+msgstr "gain {}"
+
+msgid "inactive"
+msgstr "inactif"
+
+msgid "inactive — no remapping"
+msgstr "inactif — aucune réaffectation"
+
+msgid "inactive — {} saved remapping"
+msgid_plural "inactive — {} saved remappings"
+msgstr[0] "inactif — {} réaffectation enregistrée"
+msgstr[1] "inactif — {} réaffectations enregistrées"
+
+msgid "input device not found for this joystick"
+msgstr "périphérique d'entrée introuvable pour ce manche"
+
+msgid "inverted"
+msgstr "inversé"
+
+msgid "no WinWing device at {}"
+msgstr "aucun périphérique WinWing sur {}"
+
+msgid "no base (family 0xbb) at {}"
+msgstr "pas de base (family 0xbb) sur {}"
+
+msgid "no base detected on this endpoint"
+msgstr "aucune base détectée sur cet endpoint"
+
+msgid "no button detected"
+msgstr "aucun bouton détecté"
+
+msgid "no calibratable axis"
+msgstr "aucun axe calibrable"
+
+msgid "no grip (family 0xbf) at {}"
+msgstr "pas de poignée (family 0xbf) sur {}"
+
+msgid "no hardware response from the controller"
+msgstr "pas de réponse matérielle du contrôleur"
+
+msgid "not accessible — install the access rule"
+msgstr "non accessible — installer la règle d'accès"
+
+msgid "opening {}: {}"
+msgstr "ouverture de {} : {}"
+
+msgid "opening: {}"
+msgstr "ouverture : {}"
+
+msgid "outputs as button #{}"
+msgstr "sort comme bouton n°{}"
+
+msgid "point {}/{}"
+msgstr "point {}/{}"
+
+msgid "profile"
+msgstr "profil"
+
+msgid "rotation {}°"
+msgstr "rotation {}°"
+
+msgid "self-centering axis (rests at center)"
+msgstr "axe à rappel (centre au repos)"
+
+msgid "unknown argument: {}"
+msgstr "argument inconnu : {}"
+
+msgid "unreadable hardware type"
+msgstr "type matériel illisible"
+
+msgid "unreadable hardware version"
+msgstr "version matérielle illisible"
+
+msgid "usage: wwctrl --backlight-dryrun /dev/hidrawN"
+msgstr "usage : wwctrl --backlight-dryrun /dev/hidrawN"
+
+msgid "usage: wwctrl --read /dev/hidrawN"
+msgstr "usage : wwctrl --read /dev/hidrawN"
+
+msgid "usage: wwctrl --twist-dryrun /dev/hidrawN"
+msgstr "usage : wwctrl --twist-dryrun /dev/hidrawN"
+
+msgid ""
+"usage: wwctrl [--list | --read | --twist-dryrun | --backlight-dryrun "
+"/dev/hidrawN]"
+msgstr ""
+"usage : wwctrl [--list | --read | --twist-dryrun | --backlight-dryrun "
+"/dev/hidrawN]"
+
+msgid "warning: {} not accessible for read/write (install the access rule)"
+msgstr ""
+"attention : {} non accessible en lecture/écriture (installer la règle "
+"d'accès)"
+
+msgid ""
+"{}\n"
+"\n"
+"If the joystick no longer responds, run a flash again with an official firmware to recover it."
+msgstr ""
+"{}\n"
+"\n"
+"Si le manche ne répond plus, relancez un flashage avec un firmware officiel pour le récupérer."
+
+msgid "{} (HW {}): firmware {} · catalog {}{}"
+msgstr "{} (HW {}) : firmware {} · catalogue {}{}"
+
+msgid "{} (HW {}): firmware {} · no catalog entry"
+msgstr "{} (HW {}) : firmware {} · aucune entrée au catalogue"
+
+msgid "{} axis"
+msgstr "Axe {}"
+
+msgid "{} axis: no change recorded"
+msgstr "Axe {} : aucun changement enregistré"
+
+msgid "{} · serial no. {}…"
+msgstr "{} · n° de série {}…"
+
+msgid "{} · {} · {} settings"
+msgstr "{} · {} · {} réglages"
+
+msgid "URSA MINOR Joystick (right)"
+msgstr "URSA MINOR Joystick (droite)"
+
+msgid "URSA MINOR Joystick (left)"
+msgstr "URSA MINOR Joystick (gauche)"

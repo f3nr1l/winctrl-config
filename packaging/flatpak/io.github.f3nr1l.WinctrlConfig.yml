@@ -1,0 +1,65 @@
+# Flatpak manifest for WinCtrl Config.
+#
+# Build (from this directory), then install locally:
+#   flatpak-builder --user --install --force-clean build io.github.f3nr1l.WinctrlConfig.yml
+#
+# Runtime/SDK versions and the rust-stable extension branch may need to be
+# adjusted to what is installed on the build host.
+app-id: io.github.f3nr1l.WinctrlConfig
+runtime: org.gnome.Platform
+runtime-version: '48'
+sdk: org.gnome.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.rust-stable
+command: winctrl-gui
+
+finish-args:
+  # Display.
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --share=ipc
+  - --device=dri
+  # Hardware access: hidraw (config), evdev (live monitor) and uinput (virtual
+  # controllers for remapping/splitting). These are not covered by --device=input,
+  # so full device access is required for a hardware configuration tool.
+  - --device=all
+  # Network: online firmware-version check against the vendor catalog.
+  - --share=network
+
+build-options:
+  append-path: /usr/lib/sdk/rust-stable/bin
+  build-args:
+    # Cargo fetches crates from the network during the build. For a fully
+    # offline/reproducible build (e.g. Flathub), remove this and add a generated
+    # cargo-sources.json (see README.md).
+    - --share=network
+  env:
+    CARGO_HOME: /run/build/winctrl-config/cargo
+
+modules:
+  - name: winctrl-config
+    buildsystem: simple
+    build-commands:
+      - cargo build --release --manifest-path rust/Cargo.toml --bin winctrl-gui --bin wwctrl
+      - install -Dm755 rust/target/release/winctrl-gui /app/bin/winctrl-gui
+      - install -Dm755 rust/target/release/wwctrl /app/bin/wwctrl
+      # .desktop (Exec = the in-sandbox binary name).
+      - mkdir -p /app/share/applications
+      - sed 's|@BINARY@|winctrl-gui|g' packaging/io.github.f3nr1l.WinctrlConfig.desktop
+        > /app/share/applications/io.github.f3nr1l.WinctrlConfig.desktop
+      # AppStream metadata.
+      - install -Dm644 packaging/io.github.f3nr1l.WinctrlConfig.metainfo.xml
+        /app/share/metainfo/io.github.f3nr1l.WinctrlConfig.metainfo.xml
+      # Icons.
+      - for s in 512 256 128 64 48 32; do
+          install -Dm644 packaging/icons/hicolor/${s}x${s}/apps/io.github.f3nr1l.WinctrlConfig.png
+          /app/share/icons/hicolor/${s}x${s}/apps/io.github.f3nr1l.WinctrlConfig.png;
+        done
+      # Translations (compile each catalog listed in LINGUAS to a .mo).
+      - while read -r lang; do [ -n "$lang" ] || continue;
+        mkdir -p /app/share/locale/$lang/LC_MESSAGES;
+        msgfmt rust/po/$lang.po -o /app/share/locale/$lang/LC_MESSAGES/winctrl.mo;
+        done < rust/po/LINGUAS
+    sources:
+      - type: dir
+        path: ../..

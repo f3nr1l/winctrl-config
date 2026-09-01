@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=WinCtrl Config
+GenericName=Joystick configuration
+GenericName[fr]=Configuration de manches
+Comment=Configure WinWing URSA MINOR joysticks (axes, backlight, calibration, vibration, profiles)
+Comment[fr]=Configurer les manches WinWing URSA MINOR (axes, rétroéclairage, calibration, vibration, profils)
+Exec=@BINARY@
+Icon=io.github.f3nr1l.WinctrlConfig
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=winwing;ursa;joystick;hotas;manche;flight;
+StartupNotify=true
+StartupWMClass=io.github.f3nr1l.WinctrlConfig

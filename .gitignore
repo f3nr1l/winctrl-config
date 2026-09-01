@@ -1,0 +1,6 @@
+/rust/target/
+/packaging/appimage/build/
+/packaging/appimage/tools/
+*.AppImage
+/.flatpak-builder/
+*.mo

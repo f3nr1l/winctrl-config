@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Metadata license: CC0-1.0 -->
+<component type="desktop-application">
+  <id>io.github.f3nr1l.WinctrlConfig</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>WinCtrl Config</name>
+  <summary>Configure WinWing URSA MINOR joysticks</summary>
+
+  <description>
+    <p>
+      WinCtrl Config is a configuration tool for WinWing URSA MINOR joysticks on
+      Linux. It reads and configures the on-board settings of the joystick and
+      provides OS-side helpers that never write to the hardware.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Identity, yaw-axis mode, deadzones and factory reset</li>
+      <li>Backlight brightness and mode (static / breathing)</li>
+      <li>Axis calibration wizard</li>
+      <li>Motor test and vibration effect curves</li>
+      <li>Configuration profiles (capture, import, export)</li>
+      <li>Live input monitor (axes and buttons)</li>
+      <li>Button remapping and splitting into virtual controllers, to work around
+          the 32-button limit of some games (OS-side, no write to the joystick)</li>
+    </ul>
+    <p>
+      Every write to the joystick memory requires an explicit confirmation, with an
+      automatic backup taken first. Identity registers (name, PID, serial number)
+      are protected and never written.
+    </p>
+    <p>
+      This is an unofficial, third-party project: not affiliated with, nor endorsed
+      by WinWing. Provided "as is", without any warranty; writes to the hardware are
+      performed at the user's own risk.
+    </p>
+  </description>
+
+  <launchable type="desktop-id">io.github.f3nr1l.WinctrlConfig.desktop</launchable>
+
+  <categories>
+    <category>Utility</category>
+    <category>HardwareSettings</category>
+    <category>Settings</category>
+  </categories>
+
+  <keywords>
+    <keyword>winwing</keyword>
+    <keyword>ursa</keyword>
+    <keyword>joystick</keyword>
+    <keyword>hotas</keyword>
+    <keyword>flight</keyword>
+  </keywords>
+
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+
+  <content_rating type="oars-1.1" />
+
+  <!-- Replace with the real project URLs before publishing. -->
+  <url type="homepage">https://github.com/f3nr1l/winctrl-config</url>
+  <url type="bugtracker">https://github.com/f3nr1l/winctrl-config/issues</url>
+  <url type="vcs-browser">https://github.com/f3nr1l/winctrl-config</url>
+
+  <developer id="io.github.f3nr1l">
+    <name>WinCtrl Config contributors</name>
+  </developer>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>The General tab: joystick identity, deadzones and firmware</caption>
+      <image>https://raw.githubusercontent.com/f3nr1l/winctrl-config/main/screenshots/main.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Axes: response curve, inversion and a draggable control point</caption>
+      <image>https://raw.githubusercontent.com/f3nr1l/winctrl-config/main/screenshots/axes.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Vibration: test the motor and edit generic response curves</caption>
+      <image>https://raw.githubusercontent.com/f3nr1l/winctrl-config/main/screenshots/vibration.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Backlight: live brightness and lighting modes</caption>
+      <image>https://raw.githubusercontent.com/f3nr1l/winctrl-config/main/screenshots/backlight.png</image>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="0.9.0" date="2026-08-31">
+      <description>
+        <p>First public beta: backlight, calibration, axis curves and inversion,
+        vibration test, button remap and 4×32 split, profiles, firmware version
+        check and flashing. English interface with a French translation.</p>
+      </description>
+    </release>
+  </releases>
+</component>

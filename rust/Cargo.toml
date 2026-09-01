@@ -1,0 +1,40 @@
+[package]
+name = "winctrl-config"
+version = "0.9.0"
+edition = "2021"
+rust-version = "1.80"
+license = "GPL-3.0-or-later"
+description = "Application de configuration pour les manches WinWing URSA MINOR (GTK4 / libadwaita)"
+
+[lib]
+name = "winctrl_config"
+path = "src/lib.rs"
+
+# Cœur pur (protocol/enumerate/model) = SANS dépendance. Le transport tire `nix`
+# (poll(2)/O_NONBLOCK). L'UI GTK4 est optionnelle, derrière la feature `gui`
+# (activée par défaut) : `cargo build --no-default-features` recompile le cœur +
+# le CLI sans GTK. gtk4 0.11 + libadwaita 0.9 (v1_4) ↔ système gtk4 4.22 / adw 1.9.
+[dependencies]
+nix = { version = "0.31", default-features = false }
+gtk4 = { version = "0.11", optional = true, features = ["v4_10"] }
+libadwaita = { version = "0.9", optional = true, features = ["v1_5"] }
+async-channel = { version = "2", optional = true }
+serde = { version = "1", optional = true, features = ["derive"] }
+serde_json = { version = "1", optional = true }
+# i18n : gettext système (libintl fourni par la glibc sur Linux).
+gettext-rs = { version = "0.7", optional = true, features = ["gettext-system"] }
+
+[features]
+default = ["gui"]
+gui = ["dep:gtk4", "dep:libadwaita", "dep:async-channel", "dep:serde", "dep:serde_json", "dep:gettext-rs"]
+# Outil de vérification headless (capture offscreen) — hors build normal.
+screenshot = ["gui"]
+
+[[bin]]
+name = "wwctrl"
+path = "src/bin/wwctrl.rs"
+
+[[bin]]
+name = "winctrl-gui"
+path = "src/bin/winctrl-gui.rs"
+required-features = ["gui"]
