@@ -60,7 +60,6 @@
 
   <content_rating type="oars-1.1" />
 
-  <!-- Replace with the real project URLs before publishing. -->
   <url type="homepage">https://github.com/f3nr1l/winctrl-config</url>
   <url type="bugtracker">https://github.com/f3nr1l/winctrl-config/issues</url>
   <url type="vcs-browser">https://github.com/f3nr1l/winctrl-config</url>

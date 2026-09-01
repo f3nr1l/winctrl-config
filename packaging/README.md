@@ -1,7 +1,6 @@
 # Packaging
 
-App-id: `io.github.f3nr1l.WinctrlConfig` (placeholder — finalize to the real
-project slug before publishing). Shared assets in this directory:
+App-id: `io.github.f3nr1l.WinctrlConfig`. Shared assets in this directory:
 
 - `io.github.f3nr1l.WinctrlConfig.desktop` — desktop entry (`@BINARY@` is
   replaced with the binary path/name at install time).

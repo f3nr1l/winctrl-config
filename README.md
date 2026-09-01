@@ -68,8 +68,7 @@ supplémentaires. La réaffectation et la répartition des boutons utilisent `ui
 - `packaging/flatpak/` : manifeste Flatpak.
 - `packaging/appimage/` : recette AppImage.
 
-App-id public : `io.github.f3nr1l.WinctrlConfig` (à figer au vrai slug du projet
-avant publication).
+App-id : `io.github.f3nr1l.WinctrlConfig`.
 
 ## Licence
 
